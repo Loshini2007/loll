@@ -11,7 +11,7 @@ hostname -I
 cat readme.txt
 # 4. Count the number of lines in "data.csv"
 # Your command here
-ws -l data.csv
+wc -l data.csv
 # 5. Find all files containing the word "error" in the "logs" folder
 # Your command here
 grep -rl "error" logs/
