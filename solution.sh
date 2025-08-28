@@ -3,7 +3,6 @@
 # 1. Sort the contents of "numbers.txt" in ascending order
 # Your command here
 sort numbers.txt
-
 # 2. Print the IP address of the machine
 # Your command here
 hostname -I
@@ -30,7 +29,7 @@ grep -rn "TODO" --include "*.py"
 history | tail -n 20
 # 10. Show processes sorted by memory usage
 # Your command here
-ps aux --sort=_%mem
+ps aux --sort=-%mem
 # 11. Find all directories named "backup" anywhere on the system
 # Your command here
 find / -type d -name "backup" 2>/dev/null
